@@ -41,7 +41,7 @@
 
 #define Title @"分享标题"
 #define Content @"分享的内容的描述"
-#define Picture @"head"
+#define Picture @"defaultImage"
 #define WebUrl @"https://developer.umeng.com/docs/66632/detail/66825#h3-u5206u4EABu7F51u9875"
 #define RPicture @"https://mobile.umeng.com/images/pic/home/social/img-1.png"
 #define videourl @"http://video.sina.com.cn/p/sports/cba/v/2013-10-22/144463050817.html"

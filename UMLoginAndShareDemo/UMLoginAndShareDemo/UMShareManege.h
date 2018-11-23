@@ -10,10 +10,10 @@
 #import <UMShare/UMShare.h>
 
 //官方文档 https://developer.umeng.com/docs/66632/detail/66825#h1-u-share-3
-//技术帖子 https://blog.csdn.net/coco__d/article/details/71597696
+
 @interface UMShareManege : NSObject
 
-//设置的appKey和appSecret
+//设置各平台appKey和appSecret
 +(void)setPlaform:(UMSocialPlatformType )platformType appKey:(NSString *)appKey appSecret:(NSString *)appSecret redirectURL:(NSString *)redirectURL;
 
 //登录

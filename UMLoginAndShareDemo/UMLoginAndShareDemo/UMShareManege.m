@@ -9,7 +9,7 @@
 #import "UMShareManege.h"
 
 @implementation UMShareManege
-
+//设置各平台appKey和appSecret
 +(void)setPlaform:(UMSocialPlatformType )platformType appKey:(NSString *)appKey appSecret:(NSString *)appSecret redirectURL:(NSString *)redirectURL{
     [[UMSocialManager defaultManager]setPlaform:platformType appKey:appKey appSecret:appSecret redirectURL:redirectURL];
 }
@@ -25,7 +25,7 @@
         }
     }];
 }
-
+//分享文本
 +(void)TextSharePlatform:(UMSocialPlatformType )platformType content:(NSString *)description viewControl:(UIViewController *)vc succeed:(void (^)(id data))succeed failure:(void (^)(NSError *error))failure{
     
     //创建分享消息对象
@@ -47,8 +47,7 @@
         }
     }];
 }
-
-
+//分享图片
 +(void)PictureSharePlatform:(UMSocialPlatformType )platformType thumbImage:(NSString *)thumbImageName picture:(NSString *)imageName viewControl:(UIViewController *)vc succeed:(void (^)(id data))succeed failure:(void (^)(NSError *error))failure{
     
     //创建分享消息对象
@@ -70,7 +69,7 @@
     }];
 }
 
-
+//分享网页
 +(void)WebSharePlatform:(UMSocialPlatformType )platformType title:(NSString *)title content:(NSString *)description picture:(NSString *)imageName webUrl:(NSString *)url viewControl:(UIViewController *)vc succeed:(void (^)(id data))succeed failure:(void (^)(NSError *error))failure{
     /*
      创建网页内容对象
@@ -101,7 +100,7 @@
         }
     }];
 }
-
+//分享音乐
 +(void)MusicSharePlatform:(UMSocialPlatformType )platformType title:(NSString *)title content:(NSString *)description picture:(NSString *)imageName musicUrl:(NSString *)url viewControl:(UIViewController *)vc succeed:(void (^)(id data))succeed failure:(void (^)(NSError *error))failure{
     
     //创建分享消息对象
@@ -122,7 +121,7 @@
         }
     }];
 }
-
+//分享视频
 +(void)VideoSharePlatform:(UMSocialPlatformType )platformType title:(NSString *)title content:(NSString *)description picture:(NSString *)imageName videoUrl:(NSString *)url viewControl:(UIViewController *)vc succeed:(void (^)(id data))succeed failure:(void (^)(NSError *error))failure{
     
     //创建分享消息对象
@@ -131,7 +130,7 @@
     UMShareVideoObject *shareObject = [UMShareVideoObject shareObjectWithTitle:title descr:description thumImage:[UIImage imageNamed:imageName]];
     //设置视频网页播放地址
     shareObject.videoUrl = url;
-    //            shareObject.videoStreamUrl = @"这里设置视频数据流地址（如果有的话，而且也要看所分享的平台支不支持）";
+    //shareObject.videoStreamUrl = @"这里设置视频数据流地址（如果有的话，而且也要看所分享的平台支不支持）";
     //分享消息对象设置分享内容对象
     messageObject.shareObject = shareObject;
     //调用分享接口
