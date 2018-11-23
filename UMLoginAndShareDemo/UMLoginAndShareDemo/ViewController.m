@@ -42,10 +42,10 @@
 #define Title @"分享标题"
 #define Content @"分享的内容的描述"
 #define Picture @"defaultImage"
-#define WebUrl @"https://developer.umeng.com/docs/66632/detail/66825#h3-u5206u4EABu7F51u9875"
-#define RPicture @"https://mobile.umeng.com/images/pic/home/social/img-1.png"
-#define videourl @"http://video.sina.com.cn/p/sports/cba/v/2013-10-22/144463050817.html"
-#define musicurl @"http://c.y.qq.com/v8/playsong.html?songid=108782194&source=yqq#wechat_redirect"
+#define WebUrl @"https://www.jianshu.com/u/e5cc61571b23"
+#define RPicture @"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2890920508,4158902605&fm=27&gp=0.jpg"
+#define videourl @"http://video.sina.com.cn/p/ent/2018-11-23/detail-ihmutuec2836468.d.html?cre=videopagepc&mod=g&loc=4&r=0&doct=0&rfunc=28&tj=none"
+#define musicurl @"https://i.y.qq.com/v8/playsong.html?songid=208662441&source=yqq#wechat_redirect"
 
 @interface ViewController ()<UIScrollViewDelegate>
 
