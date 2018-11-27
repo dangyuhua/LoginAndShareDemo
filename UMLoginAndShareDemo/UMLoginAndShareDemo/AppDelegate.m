@@ -19,12 +19,12 @@
 @implementation AppDelegate
 
 #define UMKEY @"5bf77bb3b465f5ec3000007e"
-#define WeChatAPPKEY @"填入你申请到的APPKEY"
-#define WeChatSecret @"填入你申请到的Secret"
-#define QQAPPKEY @"101486053"
-#define QQSecret @"106d6040fdbb98e32cf37e89ef39499e"
-#define SinaAPPKEY @"填入你申请到的APPKEY"
-#define SinaSecret @"填入你申请到的Secret"
+#define WeChatAPPKEY @"wx617c77c82218ea2c"
+#define WeChatSecret @"c7253e5289986cf4c4c74d1ccc185fb1"
+#define QQAPPKEY @"100371282"
+#define QQSecret @"aed9b0303e3ed1e27bae87c33761161d"
+#define SinaAPPKEY @"568898243"
+#define SinaSecret @"38a4f8204cc784f81f9f0daaf31e02e3"
 #define SinaRedirectURL @"http://open.weibo.com/apps/3223602484/privilege/oauth"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
