@@ -25,7 +25,7 @@
 #define QQSecret @"aed9b0303e3ed1e27bae87c33761161d"
 #define SinaAPPKEY @"568898243"
 #define SinaSecret @"38a4f8204cc784f81f9f0daaf31e02e3"
-#define SinaRedirectURL @"http://open.weibo.com/apps/3223602484/privilege/oauth"
+#define SinaRedirectURL @"http://www.sharesdk.cn"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //友盟
